@@ -1,3 +1,17 @@
 #+begin_src plantuml :file output.png
 jack -> jill
 #+end_src
+
+#+begin_src python :tangle "test.py"
+s = "Hello, World!"
+print(s.capitalize())
+#+end_src
+
+#+begin_src c++ :tangle "main.cpp"
+#include <iostream>
+using namespace std;
+int main() {
+  std::string hello = "Hello, World!";
+  cout << hello.size();
+}
+#+end_src
